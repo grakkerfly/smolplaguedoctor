@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>smol plague doctor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="site">
+    <div id="stage">
+      <div id="interactHint">CLICK TO INTERACT</div>
+
+      <img
+        id="hero"
+        src="assets/hero.png"
+        alt="smol plague doctor"
+        draggable="false"
+      />
+
+      <img
+        id="diagnosisImage"
+        src="assets/claudefriend.png"
+        alt=""
+        draggable="false"
+      />
+
+      <div id="diagnosisText">
+        i diagnose you with claude best friend syndrome
+      </div>
+
+      <nav id="links">
+        <a id="twitterLink" href="#" target="_blank" rel="noopener noreferrer">twitter</a>
+        <a id="pumpLink" href="#" target="_blank" rel="noopener noreferrer">pump.fun</a>
+        <button id="copyCaButton" type="button">copy ca</button>
+      </nav>
+
+      <div id="copyStatus">contract address here</div>
+    </div>
+  </main>
+
+  <video id="soundPlayer" preload="auto" playsinline></video>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -31,22 +31,22 @@ const diagnoses = [
   {
     text: "i diagnose you with ai model best friend syndrome",
     image: "assets/claudefriend.png",
-    sound: "assets/soundeffect/1.mp4"
+    sound: "assets/soundeffect/1.mp3"
   },
   {
     text: "i diagnose you with bullish delulu",
     image: "assets/delulu.png",
-    sound: "assets/soundeffect/2.mp4"
+    sound: "assets/soundeffect/2.mp3"
   },
   {
     text: "i diagnose you with always early syndrome",
     image: "assets/early.png",
-    sound: "assets/soundeffect/3.mp4"
+    sound: "assets/soundeffect/3.mp3"
   },
   {
     text: "i diagnose you with gambling addiction",
     image: "assets/gambling.png",
-    sound: "assets/soundeffect/4.mp4"
+    sound: "assets/soundeffect/4.mp3"
   }
 ];
 

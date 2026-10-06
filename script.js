@@ -64,12 +64,23 @@ updateProjectLinks();
 
 function playSound(src) {
   soundPlayer.pause();
-  soundPlayer.currentTime = 0;
   soundPlayer.src = src;
+  soundPlayer.volume = 1;
+  soundPlayer.muted = false;
+  soundPlayer.load();
 
-  const promise = soundPlayer.play();
-  if (promise) promise.catch(() => {});
+  soundPlayer.play().catch((error) => {
+    console.error("Erro ao tocar áudio:", soundPlayer.src, error);
+  });
 }
+
+soundPlayer.addEventListener("error", () => {
+  console.error(
+    "Não foi possível carregar o áudio:",
+    soundPlayer.src,
+    soundPlayer.error
+  );
+});
 
 function switchDiagnosis() {
   if (switching) return;

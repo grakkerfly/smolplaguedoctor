@@ -4,8 +4,8 @@
 
 const PROJECT_LINKS = {
   twitter: "https://x.com/smolplaguedr",
-  pumpfun: "https://pump.fun/coin/",
-  contractAddress: "contract address here"
+  pumpfun: "https://pump.fun/coin/9QrQ823pGjgEsaHgx7d3BHmqhqj8hrZ2RhcP4CG9pump",
+  contractAddress: "9QrQ823pGjgEsaHgx7d3BHmqhqj8hrZ2RhcP4CG9pump"
 };
 
 function updateProjectLinks({
